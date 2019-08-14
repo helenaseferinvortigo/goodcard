@@ -1,0 +1,11 @@
+.floatComponents{
+    position: relative;
+
+    @media (min-width: 1025px) {
+        display: none;
+    }
+    .search{
+        width: 50% !important;
+        margin: 0 auto;
+    }
+}

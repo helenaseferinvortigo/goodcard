@@ -1,0 +1,36 @@
+.border{
+    padding: 20px 10px;
+}
+
+.sidebar{
+    padding: 0 10px;
+    background-color: #eee;
+    padding-bottom: 15px;
+}
+
+.menu{
+    background-color: #fff;
+    border-radius: 15px 15px 0 0;
+    margin: 0px 10px;
+    width: 95%;
+    padding: 20px 10px;
+        .categoryFilterBox{
+            display: block !important;
+            width: 100%;
+            .categoryFilter__icon{
+                display: inline-block;
+            }
+            .categoryFilter__name{
+                display: inline-block;
+                vertical-align: top;
+                margin: 25px 20px;
+            }
+        }        
+}
+
+.itens{
+    .menu{
+        position: absolute;
+        bottom: 0;
+    }
+}

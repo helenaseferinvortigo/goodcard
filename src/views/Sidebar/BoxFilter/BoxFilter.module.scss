@@ -1,0 +1,140 @@
+.boxFilter{
+    background-color: #f3f3f3;
+    padding-left: 10px;
+    .borderTop{
+        width: 67%;
+        height: 1px;  
+        margin: 0 auto;
+        border-bottom: 2px solid #D8D8D8;
+    }
+}
+
+.boxFilterResult{
+    height: 440px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #F3F3F3;
+    margin: 15px 0px 15px 0;
+    @media(max-height: 800px){
+        height: 320px;
+    }
+    
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background-color: #f3f3f3 !important;
+    }        
+    .title{
+        font-size: 17px;
+        line-height: 20px;
+        text-align: left;
+        letter-spacing: 0.15px;
+        color: #162683;
+        margin-bottom: 35px;
+    }
+    .iconBack{
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+    .box{
+        background-color: #fff;
+        border-radius: 14px;
+        min-height: 170px;
+        padding: 20px 20px 15px 15px;
+        margin-bottom: 15px;
+    }
+    .header{        
+        display: inline-block;
+        width: 100%;
+    }
+    .iconBorder{
+        width: 49px;
+        height: 49px;
+        border-radius: 50%;
+        position: relative;
+        background: #e4e4e4;
+        float: left;
+        margin-right: 20px;
+    }
+    .iconImage{
+        position: absolute;
+        top: 9px;
+        left: 7px;
+        width: 33px;
+    }
+    .name{
+        vertical-align: top;
+        margin: 0px 10px;
+        padding: 16px 0;
+        font-size: 15px;
+        line-height: 18px;
+        color: #394695;
+    }
+
+    .address{
+        margin-top: 15px;
+        font-size: 13px;
+        color: #5C5C5C;
+        opacity: 0.8;
+        span{
+            display: block;
+            opacity: 0.8;
+        }
+        b{
+            opacity: 0.8;
+        }
+    }
+    .paragraph{
+        text-align: center;
+    }
+    .favImageUnknown{
+        display: block;
+        margin: 0 auto;
+        width: 30px;
+    }
+    .footer{
+        display: flex;        
+        margin: 15px 0 0 0;
+        .fav{
+            cursor: pointer;
+            .favImage{
+                width: 26px;
+                height: 26px;
+                &:hover{
+                    background-image: url("../../../assets/img/fav.png");
+                    background-repeat: no-repeat;
+                }
+            }
+        }       
+        .linkToMap{
+            background: #394695;
+            border-radius: 12px;
+            color: #fff;
+            padding: 3px 8px;
+            width: 58px;
+            font-size: 13px;
+            margin-left: 15px;
+            cursor: pointer;
+            transition: .5s all;
+            opacity: 0.8;
+            text-align: center;
+            &:hover{
+                background-color: #e4e4e4;
+                color: #394695;
+                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.17936);
+            }
+        }        
+        .pinMap{
+            cursor: pointer;
+            width: 220px;
+            text-align: right;
+            color: #ADADAD;
+            transition: .5s all;
+            font-size: 13px;
+            letter-spacing: 0.114706px;
+            opacity: 0.8;
+            &:hover{
+                color: #394695;
+            }
+        }
+    }  
+}

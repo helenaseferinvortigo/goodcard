@@ -1,0 +1,76 @@
+
+.sideBar{
+    .menu{
+        position: absolute;
+        bottom: 0;
+        background-color: #fff;
+        border-radius: 15px 15px 0 0;
+        margin: 0px 10px;
+        width: 95%;
+        padding: 20px 10px;
+
+            .categoryFilterBox{
+                display: block !important;
+                width: 100%;
+
+                .categoryFilter__icon{
+                    display: inline-block;
+                }
+                .categoryFilter__name{
+                    display: inline-block;
+                    vertical-align: top;
+                    margin: 25px 20px;
+                }
+            }
+        
+    }
+    button{
+        display: block !important;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.15px;
+        color: #162683;
+        width: 100%;
+        text-align: left;
+        text-transform: initial;
+        &:hover{
+            background-color: transparent;
+        }
+        &:focus{
+            outline: 0;
+        }
+    }    
+}
+
+
+
+.MuiDrawer-paperAnchorBottom {
+    left: 10px !important;
+    width: 400px !important;
+    background-color: transparent !important;
+}
+.MuiPaper-elevation16 {
+    box-shadow: none !important;
+}
+.MuiList-padding {
+    padding-bottom: 0 !important; 
+}
+.makeStyles-fullList-2 {
+    width: 380px !important;
+}
+.title{
+    font-size: 17px;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0.15px;
+    color: #162683;
+    padding: 20px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.iconBack{
+    margin-top: -5px;
+    margin-right: 10px;
+}
+

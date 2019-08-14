@@ -1,0 +1,57 @@
+.menuBottom {
+    padding: 20px 0px 0 20px;
+    .menuItem{
+        display: inline-block;
+        width: 100%;    
+        margin-bottom: 25px;
+        
+        &:hover{
+            .name{
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .iconImage{
+                -ms-transform: scale(1.2); /* IE 9 */
+                -webkit-transform: scale(1.2); /* Safari 3-8 */
+                transform: scale(1.2);
+            }
+        }
+    }
+    .title{
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 20px;
+        text-align: left;
+        letter-spacing: 0.15px;
+        color: #162683;
+        margin-bottom: 35px;
+    }
+    .name{        
+        display: inline-block;
+        vertical-align: top;
+        margin: 0px 10px;
+        border-bottom: 1px solid #f7f7f7;
+        width: 72%;
+        padding: 25px 0;
+        font-size: 15px;
+        color: #0C154A;
+        @media(max-width: 400px){
+            width: 176px;
+        }
+    }
+    .iconBorder{
+        display: inline-block;
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        position: relative;
+        background: #f7f7f7;
+    }
+    .iconImage{
+        position: absolute;
+        top: 13px;
+        left: 12px;
+        transition: transform .3s;
+        cursor: pointer;
+    }
+}

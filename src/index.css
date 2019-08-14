@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+}
+
+code {
+    font-family: "Helvetica Neue";
+}
+
+#root,
+.Login-header,
+.Login-header > div,
+.Login-header .row {
+    height: 100%;
+}
+
+.jss2 {
+    width: 380px !important;
+}
+@media (max-width: 400px) {
+    .jss2 {
+        width: 337px !important;
+    }
+}

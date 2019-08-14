@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ac086a01.chunk.css",
+    "main.js": "/static/js/main.a5ca2aa8.chunk.js",
+    "main.js.map": "/static/js/main.a5ca2aa8.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.a65581f3.chunk.css": "/static/css/2.a65581f3.chunk.css",
+    "static/js/2.85d4a3b1.chunk.js": "/static/js/2.85d4a3b1.chunk.js",
+    "static/js/2.85d4a3b1.chunk.js.map": "/static/js/2.85d4a3b1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.eaca2ea4fa7c858fb643bdc406522e8d.js": "/precache-manifest.eaca2ea4fa7c858fb643bdc406522e8d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.a65581f3.chunk.css.map": "/static/css/2.a65581f3.chunk.css.map",
+    "static/css/main.ac086a01.chunk.css.map": "/static/css/main.ac086a01.chunk.css.map",
+    "static/media/GoodCard-logo.png": "/static/media/GoodCard-logo.e1872abb.png"
+  }
+}

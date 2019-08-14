@@ -1,0 +1,55 @@
+.categoryFilter {
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.17936);
+    border-radius: 13px;
+    padding: 0;
+    background-color: #fff; 
+    .icon {
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        position: relative;
+        background: #f7f7f7;
+        margin: 0 auto;
+        .iconCategory {
+            position: absolute;
+            top: 13px;
+            left: 12px;
+            transition: transform 0.5s;
+            cursor: pointer;
+        }
+    }
+    .name {
+        font-size: 14px;
+        text-align: center;
+        color: #0c154a;
+    }
+    .title {
+        font-size: 17px;
+        line-height: 20px;
+        padding-top: 20px;
+        text-align: center;
+        letter-spacing: 0.15px;
+        color: #162683;
+        font-weight: bold;
+    }
+    .categoryFilterBox {
+        display: inline-block;
+        width: 33%;
+        margin-bottom: 20px;
+        cursor: pointer;
+        &:hover {
+            .name {
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .iconCategory {
+                cursor: pointer;
+                -ms-transform: scale(1.2); /* IE 9 */
+                -webkit-transform: scale(1.2); /* Safari 3-8 */
+                transform: scale(1.2);
+            }
+        }
+    }
+}

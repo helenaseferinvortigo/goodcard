@@ -1,0 +1,66 @@
+{
+  "name": "portal-site2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.2.1",
+    "add": "^2.0.6",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "firebase": "^6.3.5",
+    "google-map-react": "^1.1.4",
+    "google-maps-react": "^2.0.2",
+    "googleapis": "^42.0.0",
+    "jquery": "^3.4.1",
+    "leaflet": "^1.5.1",
+    "mdbreact": "^4.18.0",
+    "node-sass": "^4.12.0",
+    "pigeon-maps": "^0.13.0",
+    "pigeon-marker": "^0.3.4",
+    "popper.js": "^1.15.0",
+    "rc-tabs": "^9.6.4",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
+    "react-iframe": "^1.8.0",
+    "react-input-mask": "^2.0.4",
+    "react-items-carousel": "^2.3.7",
+    "react-leaflet": "^2.4.0",
+    "react-modal": "^3.9.1",
+    "react-motion-drawer": "^3.1.0",
+    "react-responsive-carousel": "^3.1.49",
+    "react-responsive-navbar": "^1.0.11",
+    "react-router-config": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-sidebar": "^3.0.2",
+    "react-slick": "^0.24.0",
+    "react-swipeable-views": "^0.13.3",
+    "react-tabs-redux": "^4.0.0",
+    "react-text-filter": "^3.0.1",
+    "reactstrap": "^8.0.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
